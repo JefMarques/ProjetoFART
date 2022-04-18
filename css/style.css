@@ -1,0 +1,18 @@
+:root {
+    --color-fresh: #0088a9;
+    --color-vermillion: #fc4a1a;
+    --color-sunshine: #f7b733;
+    --color-white: #ffffff;
+    --color-black: #303030;
+    --input-error: red;
+    --button-disabled: #acacac;
+    --button-success: rgb(18,151, 107);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../artesanato-facil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
