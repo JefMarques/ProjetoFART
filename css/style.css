@@ -8,11 +8,3 @@
     --button-disabled: #acacac;
     --button-success: rgb(18,151, 107);
 }
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-image: url(../artesanato-facil.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}

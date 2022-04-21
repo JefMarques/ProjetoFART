@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-black);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.institucional {
+    color: var(--color-white);
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.institucional__container {
+    margin-right: auto;
+    padding: 0px 14%;
+    text-align: justify;
+}
+
+.institucional__title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.institucional__texto {
+    padding: 0px 3%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.institucional__texto-lista li{
+    font-weight: normal;
+    list-style-type: circle;
+}
+
+.institucional__sub-title {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 0px 3%;
+}
+
+.institucional__social-midia img{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}

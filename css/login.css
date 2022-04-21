@@ -105,6 +105,13 @@
     text-decoration: none;
 }
 
+.login__registre {
+    font-size: 18px;
+    color: #757575;
+    text-decoration: none;
+    margin: 10px;
+}
+
 @media screen and (max-width: 768px) {
 
     .login {

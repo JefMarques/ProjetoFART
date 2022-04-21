@@ -1,0 +1,8 @@
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    font-size: 13px;
+    margin-bottom:auto;
+    color: var(--color-white);
+}
