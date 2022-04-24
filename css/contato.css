@@ -6,43 +6,49 @@ body {
     background-size: cover;
 }
 
-.institucional {
+.contato {
     color: var(--color-white);
     margin-top: 5vh;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.institucional__container {
+.contato__container {
     margin-right: auto;
     padding: 0px 14%;
-    text-align: justify;
 }
 
-.institucional__title{
+.contato__title {
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 20px;
     text-align: left;
 }
 
-.institucional__texto {
+.contato__sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: left;
+    
+}
+
+.contato__texto {
     padding: 0px 3%;
     line-height: 1.5;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
-.institucional__texto-lista li{
+.contato__texto-lista li{
     font-weight: normal;
     list-style-type: circle;
+    line-height: 1.5;
 }
 
-.institucional__sub-title {
-    font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 15px;
-    text-align: left;
-    padding: 0px 3%;
+.contato__social-midia img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
 }
 

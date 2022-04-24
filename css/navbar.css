@@ -39,7 +39,7 @@ li {
     color: #0088a9;
 }
 
-.contato {
+.button__contato {
     margin-left: 50px;
     padding: 9px 25px;
     background-color: RGBA(0,136,169,1);
@@ -49,7 +49,7 @@ li {
     transition: all 0.3s ease 0s;
 }
 
-.contato:hover {
+.button__contato:hover {
     background-color: RGBA(0,136,169,0.7);
 }
 
