@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <title>Cadastro cliente | FARTE</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a class="cabecalho__logo" href="home.html"><img class="cabecalho__logo" src="./imagens/logoFAARTE.png" alt="Logo FARTE"></a>
+        <nav>
+
+            <div class="cabecalho__mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="cabecalho__nav-links">
+                <li><a href="institucional.html" alt="institucional">Institucional</a></li>
+            </ul>
+        </nav>
+        <a class="button__contato" href="contatos.html"><button>Contato</button></a>
+    </header>
+
+    <main class="formulario">
+        <div class="formulario__container">
+            <h1 class="formulario__title">Cadastro Cliente</h1>
+            <form action="" class="formulario__form">
+                <input type="text" class="form-control" placeholder="CPF" onkeypress="$(this).mask('000.000.000-00');" required>
+                <span class="formulario__input-border"></span>
+                
+                <input type="text" class="formulario__input" placeholder="nome de usuario" required>
+                <span class="formulario__input-border"></span>
+
+                <input class="formulario__input" type="password" placeholder="senha" required>
+                <span class="formulario__input-border"></span>
+                
+                <button class="formulario__submit">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

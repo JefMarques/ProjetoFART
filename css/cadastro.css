@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../imagens/hands-sewing-red-heart-shape-wooden-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.formulario {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulario__container {
+    width: 350px;
+    background-color: var(--color-white);
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 32px;
+    color: var(--color-black);
+}
+
+.formulario__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario__input-border {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #cfcfcf;
+    transition: .3s ease-in-out;
+}
+
+.formulario__submit-cliente {
+    background: var(--color-vermillion);
+    padding: 16px 74px;
+    margin-bottom: 16px;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formulario__submit-associacao {
+    background: var(--color-fresh);
+    padding: 16px 58px;
+    margin-bottom: 16px;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: none;
+    }
+
+    .formulario {
+        height: 100vh;
+        width: 100%;
+        display: absolute;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario__container {
+        width: 75%;
+        background-color: var(--color-white);
+        box-sizing: border-box;
+        padding: 32px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario__submit-cliente {
+        padding: 4% 35% 4% 35%;
+    }
+
+    .formulario__submit-associacao {
+        align-items: center;
+        padding: 4% 35% 4% 35%;
+    }
+}
